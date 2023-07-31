@@ -1,0 +1,36 @@
+body {
+    background-color: #34495E;
+}
+
+.heading {
+    color: aliceblue;
+    padding: 0px;
+    text-align: center;
+}
+
+table {
+    width: 90%;
+    margin: 70px;
+    margin-top: 0%;
+    margin-left: 90px;
+    background-color: cornsilk;
+    align-items: center;
+}
+td{
+    font-size: 25px;
+    /* border: 1px dotted black; */
+    border-collapse: collapse;
+    align-items: center;
+    height: 50px;
+    text-align: center; 
+    
+} 
+
+tr:nth-child(even){
+    background-color: #D6EEEE;
+    /* border-bottom: 4px solid black; */
+   
+}
+th{
+    font-size: 30px;
+}
